@@ -46,6 +46,33 @@ body[dir="rtl"] .main-content {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
+/* Navbar fixed en haut */
+.navbar {
+  background: #0f172a !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+}
+
+/* Décale tout le layout sous la navbar fixe */
+#mainApp {
+  padding-top: 56px; /* même hauteur que la navbar */
+}
+
+#storeCartButton {
+  background: #2563eb !important;  /* Tailwind blue vibe */
+  border: none !important;
+  color: white !important;
+}
+
+#storeCartButton:hover {
+  filter: brightness(0.92);
+}
+
+
+
 .login-box {
     background: white;
     padding: 40px;

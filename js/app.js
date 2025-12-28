@@ -1,3 +1,4 @@
+
 // Application principale - Orchestration de toutes les fonctionnalités
 class Application {
   constructor() {
@@ -112,10 +113,9 @@ class Application {
     ];
 
     const userItems = [
-      { page: 'userHome', href: '#userHome', icon: 'fa-house', labelKey: 'sidebar.home', fallback: 'Accueil' },
-      { page: 'products', href: '#products', icon: 'fa-box', labelKey: 'sidebar.products' },
-      { page: 'orders', href: '#orders', icon: 'fa-receipt', labelKey: 'sidebar.myOrders', fallback: 'Mes commandes' }
-    ];
+  { page: 'userHome', href: '#userHome', icon: 'fa-house', labelKey: 'sidebar.home', fallback: 'Accueil' }
+];
+
 
     const items = role === 'admin' ? adminItems : userItems;
 
